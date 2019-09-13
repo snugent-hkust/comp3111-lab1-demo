@@ -5,7 +5,9 @@ package Lab;
 
 public class Library {
 	public static void main(String arg[]) {
-		System.out.println("New Function");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("New Function");
 	}
     public boolean someLibraryMethod() {
         return true;
